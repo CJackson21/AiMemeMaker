@@ -1,1 +1,1 @@
-# ChatGPTDiscordBot
+# AiMemeMaker
