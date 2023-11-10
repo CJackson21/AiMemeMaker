@@ -6,7 +6,7 @@ from discord.ext import commands
 
 id = 0
 response = requests.get("https://api.imgflip.com/get_memes")
-token = 'MTE2MjI4NTUzNDA5MDEwODk0OA.G6jeEA.JDFFbgIwH8rqzWffVrVXxl6M3ebZ7WAQKN55yw'
+token = ''
 intents = discord.Intents.default()
 intents.typing = False  # You can customize which events you want to listen to
 bot = commands.Bot(command_prefix='!', intents=intents)
